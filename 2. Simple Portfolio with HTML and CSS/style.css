@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #eefcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    width: fit-content;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #009060;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #009060;
+}
+
+/* header */
+
+header {
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* logo */
+
+nav .logo>span {
+    font-size: 1.6rem;
+    font-weight: 900;
+    transition: font-size 0.3s;
+}
+
+nav .logo>span:hover {
+    font-size: 1.7rem;
+    color: #009060;
+}
+
+/* menu lists */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #009060;
+}
+
+/* search field */
+
+.search-field {
+    display: flex;
+    gap: 10px;
+}
+
+.search-field input {
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+/* hero section */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* hero left section */
+
+section .hero-left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section .hero-left h1>span {
+    font-size: 48px;
+    color: #009060;
+}
+
+section .hero-left h2 {
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: #904800;
+}
+
+section .hero-left p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+section .hero-left p>span {
+    font-size: 19px;
+    font-weight: 600;
+    color: #009060;
+}
+
+/* hero right section */
+
+section .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section .hero-right>img {
+    width: 24rem;
+    height: 24rem;
+}
+
+section .hero-right>button {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* social links */
+
+/* .social {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+} */
+
+.links {
+    display: inline-block;
+    border-radius: 45px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px #b7b5b5;
+}
+
+.social .links:hover {
+    width: 170px;
+}
+
+.social .links .icon {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.social .links:nth-child(1):hover .icon {
+    background: #131a1a;
+}
+
+.social .links:nth-child(2):hover .icon {
+    background: #ed0f55;
+}
+
+.social .links:nth-child(3):hover .icon {
+    background: #2b8cf3;
+}
+
+.social .links:nth-child(4):hover .icon {
+    background: #0261ba;
+}
+
+.social .links:nth-child(5):hover .icon {
+    background: #00d5ff;
+}
+
+
+.social .links .icon i {
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.social .links:hover .icon i {
+    color: #ffffff;
+}
+
+.social .links span {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.social .links:nth-child(1):hover span {
+    color: #131a1a;
+}
+
+.social .links:nth-child(2):hover span {
+    color: #ed0f55;
+}
+
+.social .links:nth-child(3):hover span {
+    color: #2b8cf3;
+}
+
+.social .links:nth-child(4):hover span {
+    color: #0261ba;
+}
+
+.social .links:nth-child(5):hover span {
+    color: #00d5ff;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer p>span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #009060;
+}
