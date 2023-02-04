@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -124,12 +124,16 @@ section .hero-left p {
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+
 }
 
 section .hero-left p>span {
     font-size: 19px;
     font-weight: 600;
     color: #009060;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 /* hero right section */
@@ -153,11 +157,7 @@ section .hero-right>button {
 
 /* social links */
 
-/* .social {
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-} */
+
 
 .links {
     display: inline-block;
@@ -223,6 +223,8 @@ section .hero-right>button {
     padding-left: 10px;
     font-weight: 600;
     align-items: center;
+    font-family: 'Courgette', cursive;
+
 }
 
 .social .links:nth-child(1):hover span {

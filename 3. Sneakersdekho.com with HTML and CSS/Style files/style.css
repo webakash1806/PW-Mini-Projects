@@ -156,7 +156,8 @@ section .leftsection>h1 {
 section .leftsection p {
     margin: 25px 0;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: 'Courgette';
 }
 
 section .leftsection a {
