@@ -126,6 +126,11 @@ header nav ul {
 
 .sin-image img {
     height: 15rem;
+    transition: all 0.5s;
+}
+
+.sin-image img:hover {
+    transform: scale(1.1);
 }
 
 /* footer */

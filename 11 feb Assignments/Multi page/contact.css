@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F0F4F5;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7.5rem 1rem 4.5rem;
+    height: 15vh;
+}
+
+.logo img {
+    height: 53px;
+}
+
+header nav ul li a {
+    font-weight: 600;
+    font-size: 17.5px;
+    transition: all 0.2s;
+}
+
+header nav ul li:last-child a {
+    color: #20BC7E;
+}
+
+header nav ul li a:hover {
+    color: #20BC7E;
+}
+
+section {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    gap: 3rem;
+}
+
+.contact-card {
+    border-radius: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000000d6;
+    background-color: #8180800a;
+}
+
+.contact-card h1 {
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+
+.input {
+    font-weight: 600;
+}
+
+.input input {
+    padding: 0 10px;
+    width: 18rem;
+    border-radius: 10px;
+    border: transparent;
+    height: 1.85rem;
+}
+
+.input input::placeholder {
+    font-weight: 500;
+    color: #00000050;
+}
+
+.email {
+    margin-top: -10px;
+}
+
+.message {
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.message textarea {
+    resize: none;
+    margin-top: 2px;
+    border: transparent;
+    width: 18rem;
+    height: 6rem;
+    border-radius: 10px;
+    margin-bottom: -0.8rem;
+    padding: 5px 10px;
+}
+
+.message textarea::placeholder {
+    font-weight: 500;
+    color: #00000050;
+}
+
+.btn {
+    border: transparent;
+    width: 18rem;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #20BC7E;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: #20BC7E;
+    background-color: #fff;
+    border: 2px solid #20BC7E;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px #bcbabaa1;
+}
