@@ -90,6 +90,8 @@ nav ul li a:hover {
 }
 
 .search-field input {
+    border: none;
+    outline-style: dashed;
     border-radius: 5px;
     padding: 4px 10px;
 }

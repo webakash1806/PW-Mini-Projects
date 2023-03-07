@@ -149,6 +149,7 @@ section .leftsection>h1 {
     font-size: 55px;
     font-weight: 700;
     background: linear-gradient(to right, #ff0000, #d55500, #ad007c, #8a18f4);
+
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
